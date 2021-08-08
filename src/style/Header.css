@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: skyblue;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  padding-right: 3rem;
+}
+
+.header-button-div {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: flex-end;
+}
+#herder-button {
+  margin: 1rem;
+}

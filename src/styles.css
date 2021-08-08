@@ -1,0 +1,109 @@
+@import "./style/ProductCard.css";
+@import "./style/ProductList.css";
+@import "./style/Header.css";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button:focus {
+  outline: none;
+}
+
+.cart {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.cart-main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.product-cart-card {
+  height: 300px;
+  width: 800px;
+  border: 1px solid gray;
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.cart-card-img {
+  height: 100%;
+}
+.cart-card-content {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.add-to-cart-card-btn {
+  width: 90%;
+  height: 40%;
+
+  cursor: pointer;
+  background-color: skyblue;
+  border: none;
+}
+.add-to-cart-card-btn:hover {
+  opacity: 0.8;
+}
+.card-name-div {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 1rem;
+}
+.product-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.quantity-btn-div {
+  display: flex;
+  width: 40%;
+  height: 100%;
+}
+.cart-calculation {
+  min-height: 300px;
+  width: 800px;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-name-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.cart-calculation-item {
+  height: 90%;
+  padding: 1rem;
+}
+.cart-calculation-total {
+  height: 100px;
+  padding: 1rem 0rem;
+}
+.total-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  border-top: 1px solid gray;
+}
+.discount {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.25rem;
+}
